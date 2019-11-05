@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.Button;
 
 public class login extends AppCompatActivity {
-// Instancia de Objetos
     Button btn_iniciarS;
     ProgressDialog progressDialog ;
 
