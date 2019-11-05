@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "858013286148",
+    "firebase_url": "https://taxmath-6d625.firebaseio.com",
+    "project_id": "taxmath-6d625",
+    "storage_bucket": "taxmath-6d625.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858013286148:android:49119891cb8fdc8dc41a51",
+        "android_client_info": {
+          "package_name": "com.example.ray.prueba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858013286148-j5tah72079u3mig4kciimld3sun4bkhk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ray.prueba",
+            "certificate_hash": "60b1abd78036e1fbbc001cdab1b4905e0bc93357"
+          }
+        },
+        {
+          "client_id": "858013286148-sn7f534colo8mtd6aqpdj2cc1mdbmu8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFfg-n9XXn78XbovHGJclUWuzQSSCHvrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858013286148-sn7f534colo8mtd6aqpdj2cc1mdbmu8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
