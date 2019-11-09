@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">TAXISAFE Rider</string>
-    <string name="title_activity_rutas">TaxiMATH</string>
+    <string name="app_name">TAXSAFE Rider</string>
+    <string name="title_activity_rutas">TAXSAFE</string>
 </resources>

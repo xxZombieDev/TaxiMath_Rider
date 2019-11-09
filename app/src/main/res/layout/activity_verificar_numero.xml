@@ -6,23 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".VerificarNumero">
 
-    <RelativeLayout
-        android:id="@+id/relativeLayout"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="@color/colorPrimary">
 
-    </RelativeLayout>
-
-
-
-        <TextView
+    <TextView
             android:id="@+id/textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/relativeLayout"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="250dp"
             android:text="Espere su codigo de confirmación"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#000000"

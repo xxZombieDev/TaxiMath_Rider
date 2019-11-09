@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Cargando...");
         progressDialog.show();
-        Intent intentLogin = new Intent(this,login.class);
+        Intent intentLogin = new Intent(this,DatosUsuario.class);
         startActivity(intentLogin);
         progressDialog.hide();
     }

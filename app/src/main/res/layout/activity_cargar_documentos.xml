@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context=".CargarDocumentos">
+
+    <TextView
+        android:id="@+id/lbl_doc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Carga tu Foto de Perfil"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_Foto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/lbl_doc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <Button
+        android:id="@+id/btn_Foto"
+        android:layout_below="@id/img_Foto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:text="Cargar Fotografia"/>
+
+    <Button
+        android:id="@+id/btn_Finalizar"
+        android:layout_below="@id/btn_Foto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:text="Finalizar Registro"/>
+
+
+</RelativeLayout>
